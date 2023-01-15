@@ -85,6 +85,8 @@ async function getEmployeeResults(query) {
     return resultArray;
 }
 
+//Following functions return the id of the result entered into inquirer
+
 async function getDepartmentID(data) {
     let mapArray = [];
     let depID;
@@ -129,6 +131,8 @@ async function getManagerID(data) {
     managerID = Number(tempArray);
     return managerID;    
 }
+
+//This is a helper function to help with returning promises in order
 
 async function setResults(query) {
     let array;
