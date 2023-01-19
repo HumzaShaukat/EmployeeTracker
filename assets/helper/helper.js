@@ -295,6 +295,7 @@ async function updateRole() {
                 console.log(err);
             }
         })
+        init();
     })
 }
 

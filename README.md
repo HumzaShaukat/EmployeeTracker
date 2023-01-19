@@ -14,6 +14,8 @@ The program will then begin and you will be given a list of choices of different
 
 ## Demo
 
+[Here](./assets/demo/demo.webm) is a link to the demo of the application in action
+
 ## Credits
 
 N/A
